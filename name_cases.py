@@ -1,25 +1,27 @@
 #Personal Message
-name = "brandon"
-message = f"Hello {name}, would you like to learn python today?"
-print(message)
+name_you = "brandon rhodes"
+message_1 = f"Hello, {name_you}! Let's change our future."
+print(message_1)
 
 #Name Cases
-name_cases = f"{name.lower()}\n{name.upper()}\n{name.title()} "
-print(name_cases)
+print(name_you.lower())
+print(name_you.upper())
+print(name_you.title())
 
 #Famous Quote
-author = "Bruce Lee once said,"
-quote = "Knowing is not enough, we must apply. Willing is not enough, we must do."
-message = f'{author} "{quote}"'
-print(message)
+print('Dave Chappelle once said, "WHITE POWER!"')
 
 #Famous Quote 2
-famous_person = author
-quote = "Showing off is the fool's idea of glory"
-message = f'{famous_person} "{quote}"'
-print(message)
+famous_person = "dave chappelle"
+message_2 = f'{famous_person.title()} once said, "WHITE POWER"'
+print(message_2)
 
 #Stripping Names
-name = " brandon "
-message = f"{name}\n{name.lstrip()}\n{name.rstrip()}\n{name.strip()}"
-print(message)
+name_son = " nehemiah 'nemo' rhodes"
+print(name_son) # nehemiah 'nemo' rhodes
+print(f"\t{name_son}") #    nehemiah 'nemo' rhodes
+print(f"I think {name_son}\nlikes to eat boogers")
+print(name_son)
+print(name_son.rstrip()) # nehemiah 'nemo' rhodes
+print(name_son.lstrip()) #nehemiah 'nemo' rhodes
+print(name_son.strip()) #nehemiah 'nemo' rhodes
